@@ -35,7 +35,7 @@ def add_task():
         save_task(tasks)
         entry_task.delete(0, tk.END)
     else:
-        messagebox.showwarning("Предупреждение", "Введите название продукта.")
+        messagebox.showwarning("Предупреждение", "Введите название")
 
 
 # шаг 6
